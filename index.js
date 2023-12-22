@@ -10,7 +10,7 @@ const cors = require('cors');
 const port =process.env.PORT || 5000;
 //middleware
 
-app.use(cors({origin:[ 'http://localhost:5173',
+app.use(cors({origin:[ 'http://localhost:5173','https://task-management-d09b8.web.app','https://task-management-d09b8.firebaseapp.com'
 ]}));
 app.use(express.json());
 
